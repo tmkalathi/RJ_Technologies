@@ -1,0 +1,655 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.marquee{
+    background-color: orange;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.marquee a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.marquee a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.one{
+    background-color: aqua;
+    display: flex;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+#nav{
+    padding-right: 30px;
+    position: relative;
+    top:8px;
+    left:0px;
+    font-size: 20px;
+}
+#icon-facebook{
+    padding-left: 600px;
+}
+.para{
+    padding-left: 150px;
+}
+
+.title{
+    position: absolute;
+    top: 128px;
+    left: 80px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#graduation-icon{
+    position: absolute;
+    top: 128px;
+    left: 40px;
+    font-size: 30px; 
+}
+.nav-bar{
+   background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.anchor{
+    display: inline-flex;
+    padding: 0px;
+    padding-left: 400px;
+}
+li:hover{
+    background-color: aqua;
+    color: white;
+    height: 20px;
+}
+.anchor a {
+    text-decoration: none;
+}
+.anchor li{
+    list-style: none;
+    padding: 30px;
+}
+.dropdown a{
+    text-decoration: none;
+}
+.dropdown .mention{
+    display: none;
+}
+.dropdown:hover .mention{
+    display: block;
+  list-style: none;
+  background-color: #888888; 
+
+}
+.dropdown:hover .mention li{
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+}
+
+.enquairy-sub-menu{
+    display: none;
+    width: 500px;
+    position: absolute;
+    left: 110px;
+}
+.option-courese{
+    display: none;
+}
+.courses:hover .option-courese{
+    background-color: azure;
+    display: block;
+}
+.enquairy{
+    position: absolute;
+    top: 140px;
+    right: 250px;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border: 1px solid green;
+}
+.enquairy:hover{
+    background-color:rgb(249, 223, 176);
+    color: orange;
+}
+.enquairy:hover .enquairy-sub-menu{
+    display: block;
+    position: absolute;
+    margin-left: -350px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+}
+#form-icon{
+    display: inline-flex;
+    padding: 20px;
+}
+#five{
+    width: 100%;
+    height: 800px;
+    animation: kalathi 14s 3s infinite;
+    background-image: url("image6.jpg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+}
+#name-enquairy{
+    position: relative;
+    left: -130px;
+    top: 30px;
+    text-align: center;
+}
+
+#email-enquairy{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: center;
+}
+#mobile-enquiary{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+#selector-enquairy{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+.submit-enquairy-button{
+    position: relative;
+    top: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.submit-enquairy-button:hover{
+    background-color: rgb(180, 180, 237);
+    color: blue;
+}
+#chimney-icon{
+    
+    color:blueviolet;
+}
+.classroom-enquairy{
+    position: relative;
+    left: 70px;
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+}
+#laptop-icon{
+    color: blueviolet;
+}
+.online-enquairy{
+    position: relative;
+    width: 100px;
+    left: 90px;
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+}
+.request-data{
+    color: black;
+}
+@keyframes kalathi{
+    20%{
+        background-image: url("image1.png");
+    }
+    40%{
+        background-image: url("image2.jpg");
+    }
+    60%{
+        background-image: url("image.webp");
+    }
+    80%{
+        background-image: url("image4.jpg");
+    }
+    100%{
+        background-image: url("image5.jpeg");
+    }
+}
+#six{
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: white;
+}
+.double{
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.double:hover{
+    text-decoration-line: underline;
+    color: white;
+    background-color: rgb(190, 190, 235);
+}
+#form-2{
+
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    top: 15px;
+    left: 250px;
+    border-radius: 80px;
+    
+}
+.double:hover #form-2{
+    display: block;
+    
+
+}
+#apply-1{
+    border: none;
+    border-bottom: 2px solid red;
+    text-align: center;
+  
+}
+.box-1{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+.royal{
+    border: 50px;
+    background-color: aqua;
+    height: 280px;
+  padding-top: 80px;
+  border-radius: 20px;
+  text-align: center;
+ margin-right: 20PX;
+}
+.two{
+  border: 50px;
+    background-color: aqua;
+    height: 280px;
+  padding-top: 80px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 20PX;  
+}
+.three{
+  border: 50px;
+    background-color: aqua;
+    height: 280px;
+  padding-top: 80px;
+  border-radius: 20px;
+  text-align: center;  
+  margin-right: 20PX;
+}
+.fourth{
+    border: 50px;
+    background-color: aqua;
+    height: 280px;
+  padding-top: 80px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 20PX;
+
+}
+.royal:hover{
+    background-color: white;
+}
+.two:hover{
+     background-color: white;
+}
+.three:hover{
+    background-color: white;
+}
+.fourth:hover{
+    background-color: white;
+}
+#tele-1{
+    position: absolute;
+    left:168px;
+    top: 1185px;
+    font-size: 30px;
+}
+.background-color-1{
+    position: relative;
+    left: 150px;
+    top:30px;
+    background-color:white;
+    padding: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+}
+#tele-2{
+    position: absolute;
+    left:535px;
+    top: 1185px;
+    font-size: 30px;
+}
+#none{
+    background-color: white;
+    padding: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 520px;
+    top:-30px; 
+}
+.background-color-3{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 1000px;
+    top:10px; 
+    margin: -100px;
+}
+#tele-3{
+     position: absolute;
+     font-size: 30px;
+     left: 915px;
+     top:1185px
+}
+.background-color-4{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    top:50px;
+    left: 1270px;
+}
+#tele-4{
+    position: absolute;
+     font-size: 30px;
+     left: 1285px;
+     top:1185px
+}
+#middlecontent{
+    margin-top: 50px;
+}
+#Courses{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 90px;
+    padding: 20px;
+    text-align: center;    
+}
+ .detail-1 h1{
+    background-color: aqua;
+   
+
+}
+.detail-1 h3 {
+    margin-top: 50px;
+}
+.detail-1 p{
+    margin-top: 50px;
+}
+.detail-1 #star-1{
+    margin-top: 50px;
+   
+}
+.detail-1 button{
+    margin-top: 20px ;
+    background-color: aquamarine;
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+}
+.detail-1{
+    border: 1px solid;
+  padding: 5px;
+  box-shadow: 5px 10px 10px #888888;
+}
+.detail-2 h1{
+    background-color: aqua;
+   
+
+}
+.detail-2 h3 {
+    margin-top: 50px;
+}
+.detail-2 p{
+    margin-top: 30px;
+}
+.detail-2 #star-2{
+    margin-top: 50px;
+   
+}
+.detail-2 button{
+    margin-top: 10px ;
+    background-color: aquamarine;
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+}
+.detail-2{
+    border: 1px solid;
+  padding: 5px;
+  box-shadow: 5px 10px 10px #888888;
+}
+.detail-3 h1{
+    background-color: aqua;
+   
+
+}
+.detail-3 h3 {
+    margin-top: 50px;
+}
+.detail-3 p{
+    margin-top: 30px;
+}
+.detail-3 #star-3{
+    margin-top: 50px;
+   
+}
+.detail-3 button{
+    margin-top: 8px ;
+    background-color: aquamarine;
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+}
+.detail-3{
+    border: 1px solid;
+  padding: 5px;
+  box-shadow: 5px 10px 10px #888888;
+}
+
+ .detail-4 h1{
+ background-color: aqua;
+   
+
+}
+.detail-4 h3 {
+    margin-top: 50px;
+}
+.detail-4 p{
+    margin-top: 30px;
+}
+.detail-4 #star-4{
+    margin-top: 50px;
+   
+}
+.detail-4 button{
+    margin-top: 8px ;
+    background-color: aquamarine;
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+}
+.detail-4{
+    border: 1px solid;
+  padding: 5px;
+  box-shadow: 5px 10px 10px #888888;
+}
+.detail-5 h1{
+ background-color: aqua;
+   
+
+}
+.detail-5 h3 {
+    margin-top: 50px;
+}
+.detail-5 p{
+    margin-top: 30px;
+}
+.detail-5 #star-5{
+    margin-top: 50px;
+   
+}
+.detail-5 button{
+    margin-top: 8px ;
+    background-color: aquamarine;
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+}
+.detail-5{
+    border: 1px solid;
+  padding: 5px;
+  box-shadow: 5px 10px 10px #888888;
+}
+.detail-6 h1{
+ background-color: aqua;
+   
+
+}
+.detail-6 h3 {
+    margin-top: 50px;
+}
+.detail-6 p{
+    margin-top: 30px;
+}
+.detail-6 #star-6{
+    margin-top: 50px;
+   
+}
+.detail-6 button{
+    margin-top: 8px ;
+    background-color: aquamarine;
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+}
+.detail-6{
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 5px 10px 10px #888888;
+}
+.detail-1 button:hover{
+    background-color: blue;
+    cursor: pointer;
+    
+}
+.detail-2 button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.detail-3 button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.detail-4 button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.detail-5 button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.detail-6 button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.downpage{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+   box-shadow:5px 10px 10px #888888 ;
+}
+#footer-1{
+    padding: 20px;
+}
+#footer-2{
+    padding: 20px;
+    padding-left: 100px;
+}
+#footer-3{
+    padding:25px ;
+    padding-left: 100px;
+}
+#footer-4{
+    
+    margin-top: 50px;
+    padding: 50px;
+    position: relative;
+    left: 120px;
+    top: -75px;
+    bottom: px;
+}
+#note-0{
+    font-size: 20px;
+    position: relative;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    top: 60px;
+    left: 70px;
+}
+#note-1{
+    font-size:20px;
+    position: relative;
+    background-color: aqua;
+    padding:10px;
+    border-radius:10px;
+    top: 120px;
+    right: 180px;
+}
+#note-2{
+    font-size:20px;
+    position: relative;
+    background-color: aqua;
+    padding:10px;
+    border-radius:10px;
+    top: 120px;
+    right: 170px;
+}
+#note-3{
+    font-size:20px;
+    position: relative;
+    background-color: aqua;
+    padding:10px;
+    border-radius:10px;
+    top: 120px;
+    right: 160px;
+}
+#note-4{
+  font-size:20px;
+    position: relative;
+    background-color: aqua;
+    padding:10px;
+    border-radius:10px;
+    top: 120px;
+    right: 150px;  
+}

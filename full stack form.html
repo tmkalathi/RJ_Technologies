@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>full stack form</title>
+    <style>
+        #full
+        {
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 00px;
+            background-color: antiquewhite;
+            
+
+            
+        }
+        #form label{
+            padding: 40PX;
+        }
+        #form{
+            position: absolute;
+            left:550px;
+            top: -20px;
+            margin-top: 80px;
+           
+        }
+        .text-1{
+            padding: 10px;
+            border: 1px solid;
+            box-shadow: 5px 10px 10px #888888;
+        }
+        .button{
+            padding: 100px;
+            margin-left: 250px;
+        }
+        #title{
+        padding: 200px;
+        padding-left:-20px;
+        }
+        button:hover{
+            background-color: blue;
+            color: aliceblue;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="full">
+    <div id="title">
+        <h3>RJ Technology</h3>
+        <h1> M.VERVE <h1>
+         <h2>Inspried Application</h2>
+        <h4>To connect with us<br>
+             Please enter the detail</h4>
+    </div>
+    <div id="form">
+        <h1 style="text-align: center;">Create account</h1>
+        <label for="First Name"> First Name</label>
+        <input class="text-1"type="text" placeholder="First Name" required>
+        <label for="Last Name">Last Name</label>
+        <input class="text-1" type="text"  placeholder="Last Name" required>
+        <label for="Age">Age</label>
+        <input class="text-1" type="Number"  placeholder="Age" required><br><br>
+        <label for="moblie number">Moblie Number</label>
+        <input class="text-1" type="number" placeholder=" moblie Number" required>
+        <label for="email">Email</label>
+        <input class="text-1"type="email" placeholder="Email"><br><br>
+        <label for="description">discription</label>
+       <textarea name="description" id="" rows="3"cols="35"placeholder="description"></textarea><br><br>
+       <label for="password">password</label>
+       <input class="text-1" type="password"  placeholder="password" required>
+       <label for="conform password"> confirm password</label>
+       <input class="text-1" type="password" placeholder="confirm password"required><br><br>
+       <div class=button>
+                        <button style="padding: 10px; border-radius: 20px;">RESET</button>              
+                          <button style="margin-left: 80px; padding: 10px; border-radius: 20px;">SUBMIT</button>               
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,436 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.marquee{
+    background-color: orange;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.marquee a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.marquee a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.one{
+    background-color: aqua;
+    display: flex;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+#nav{
+    padding-right: 30px;
+    position: relative;
+    top:8px;
+    left:0px;
+    font-size: 20px;
+}
+#icon-facebook{
+    padding-left: 600px;
+}
+.para{
+    padding-left: 150px;
+}
+
+.title{
+    position: absolute;
+    top: 128px;
+    left: 80px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#graduation-icon{
+    position: absolute;
+    top: 128px;
+    left: 40px;
+    font-size: 30px; 
+}
+.nav-bar{
+   background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.anchor{
+    display: inline-flex;
+    padding: 0px;
+    padding-left: 400px;
+}
+.anchor ul a:hover{
+    background-color: aqua;
+    color: white;
+    height: 20px;
+}
+.anchor a {
+    text-decoration: none;
+}
+.anchor li{
+    list-style: none;
+    padding: 30px;
+}
+.dropdown a{
+    text-decoration: none;
+}
+.dropdown .mention{
+    display: none;
+}
+.dropdown:hover .mention{
+    display: block;
+  list-style: none;
+  background-color: #888888; 
+
+}
+.dropdown:hover .mention li{
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+}
+
+.enquairy-sub-menu{
+    display: none;
+    width: 500px;
+    position: absolute;
+    left: 110px;
+}
+.option-courese{
+    display: none;
+}
+.courses:hover .option-courese{
+    background-color: azure;
+    display: block;
+}
+.enquairy{
+    position: absolute;
+    top: 140px;
+    right: 250px;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border: 1px solid green;
+}
+.enquairy:hover{
+    background-color:rgb(249, 223, 176);
+    color: orange;
+}
+.enquairy:hover .enquairy-sub-menu{
+    display: block;
+    position: absolute;
+    margin-left: -350px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+}
+#form-icon{
+    display: inline-flex;
+    padding: 20px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.marquee{
+    background-color: orange;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.marquee a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.marquee a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.one{
+    background-color: aqua;
+    display: flex;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+#nav{
+    padding-right: 30px;
+    position: relative;
+    top:8px;
+    left:0px;
+    font-size: 20px;
+}
+#icon-facebook{
+    padding-left: 600px;
+}
+.para{
+    padding-left: 150px;
+}
+
+.title{
+    position: absolute;
+    top: 128px;
+    left: 80px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#graduation-icon{
+    position: absolute;
+    top: 128px;
+    left: 40px;
+    font-size: 30px; 
+}
+.nav-bar{
+   background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.anchor{
+    display: inline-flex;
+    padding: 0px;
+    padding-left: 400px;
+}
+.anchor li:hover{
+    background-color: aqua;
+    color: white;
+    height: 20px;
+}
+.anchor a {
+    text-decoration: none;
+}
+.anchor li{
+    list-style: none;
+    padding: 30px;
+}
+.dropdown a{
+    text-decoration: none;
+}
+.dropdown .mention{
+    display: none;
+}
+.dropdown:hover .mention{
+    display: block;
+  list-style: none;
+  background-color: #888888; 
+
+}
+.dropdown:hover .mention li{
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+}
+
+.enquairy-sub-menu{
+    display: none;
+    width: 500px;
+    position: absolute;
+    left: 110px;
+}
+.option-courese{
+    display: none;
+}
+.courses:hover .option-courese{
+    background-color: azure;
+    display: block;
+}
+.enquairy{
+    position: absolute;
+    top: 140px;
+    right: 250px;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border: 1px solid green;
+}
+.enquairy:hover{
+    background-color:rgb(249, 223, 176);
+    color: orange;
+}
+.enquairy:hover .enquairy-sub-menu{
+    display: block;
+    position: absolute;
+    margin-left: -350px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+}
+#form-icon{
+    display: inline-flex;
+    padding: 20px;
+}
+#five{
+    width: 100%;
+    height: 800px;
+    animation: kalathi 14s 3s infinite;
+    background-image: url("image6.jpg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+}
+#name-enquairy{
+    position: relative;
+    left: -130px;
+    top: 30px;
+    text-align: center;
+}
+
+#email-enquairy{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: center;
+}
+#mobile-enquiary{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+#selector-enquairy{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+.submit-enquairy-button{
+    position: relative;
+    top: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.submit-enquairy-button:hover{
+    background-color: rgb(180, 180, 237);
+    color: blue;
+}
+#chimney-icon{
+    
+    color:blueviolet;
+}
+.classroom-enquairy{
+    position: relative;
+    left: 70px;
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+}
+#laptop-icon{
+    color: blueviolet;
+}
+.online-enquairy{
+    position: relative;
+    width: 100px;
+    left: 90px;
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+}
+.request-data{
+    color: black;
+}
+#title{
+    text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: blueviolet;
+}
+.ic{
+    display: inline-flex; 
+}
+.enroll{
+
+    position: relative;
+    left: 550px;
+    background-color: orange;
+    height: 30px;
+    border-radius: 10px;
+}
+.javascript{
+    position: relative;
+    left: 560px;
+    background-color: blue;
+    height: 30px;
+    border-radius: 10px
+}
+.react{
+    position: relative;
+    left: 570px;
+    background-color: blue;
+    height: 30px;
+    border-radius: 10px
+}
+.viewbatch{
+position: relative;
+    left: 580px;
+    background-color: orange;
+    height: 30px;
+    border-radius: 10px
+      
+}
+#content-1 h2{
+    padding-left: 200px;
+}
+#content-1{
+    padding-left: 150px;
+    margin-top: 40px;
+     box-shadow: 5px 10px 10px 5px  #888888;
+     font-size: 20px;
+}
+#content-2 h2{
+    padding-left: 200px;
+}
+#content-2{
+    padding-left: 150px;
+    margin-top: 40px;
+    box-shadow: 5px 10px 10px 5px  #888888;
+     font-size: 20px;
+
+}
+#content-3 h3{
+    padding-left: 200px ;
+}
+
+#content-3{
+   padding-left: 150px;
+   margin-top: 40px;
+   box-shadow: 5px 10px 10px 5px  #888888;
+     font-size: 20px;
+}
+
+#overflow-1{
+    display: block;
+    margin-top: 20px;
+}
+.lorem-1{
+    display: none;
+    overflow: scroll;
+    padding-left: 500px;
+    
+}
+#overflow-1:hover .lorem-1
+{
+  display: block;
+  overflow: scroll;
+  padding: 10px;
+  height: 20px;
+  width: 2000px;
+}
+#overflow-2{
+     display: block;
+    margin-top: 30px;
+}
+.lorem-2{
+    display: none;
+    overflow: scroll;
+    padding-left: 500px;  
+}
+#overflow-2:hover .lorem-2{
+    display: block;
+  overflow: scroll;
+  padding: 10px;
+  height: 20px;
+  width: 2000px;
+}
